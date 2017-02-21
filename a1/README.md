@@ -1552,7 +1552,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
   }
   ```
 
-  ```javascript
+  ```javascriptf
   /* recommended */
   function getCustomer(id) {
       return $http.get('/api/customer/' + id)
@@ -2192,7 +2192,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
     1. `L`ocating our code is easy
     2. `I`dentify code at a glance
     3. `F`lat structure as long as we can
-    4. `T`ry to stay DRY (Don’t Repeat Yourself) or T-DRY
+    4. `T`ry to stay [DRY (Don’t Repeat Yourself)](https://en.wikipedia.org/wiki/Don't_repeat_yourself) or T-DRY
 
 ### Locate
 ###### [Style [Y141](#style-y141)]
